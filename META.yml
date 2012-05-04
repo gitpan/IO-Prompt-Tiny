@@ -1,0 +1,41 @@
+---
+abstract: 'Prompt for user input with a default option'
+author:
+  - 'David Golden <dagolden@cpan.org>'
+build_requires:
+  Capture::Tiny: 0
+  File::Find: 0
+  File::Temp: 0
+  Test::More: 0.96
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300015, CPAN::Meta::Converter version 2.120630'
+license: apache
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: IO-Prompt-Tiny
+no_index:
+  directory:
+    - t
+    - xt
+    - examples
+    - corpus
+  package:
+    - DB
+provides:
+  IO::Prompt::Tiny:
+    file: lib/IO/Prompt/Tiny.pm
+    version: 0.001
+requires:
+  Carp: 0
+  Exporter: 0
+  perl: 5.006
+  strict: 0
+  warnings: 0
+resources:
+  bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=IO-Prompt-Tiny
+  homepage: https://github.com/dagolden/io-prompt-tiny
+  repository: https://github.com/dagolden/io-prompt-tiny.git
+version: 0.001
