@@ -12,9 +12,12 @@ my %WriteMakefileArgs = (
   "ABSTRACT" => "Prompt for user input with a default option",
   "AUTHOR" => "David Golden <dagolden\@cpan.org>",
   "BUILD_REQUIRES" => {
-    "Capture::Tiny" => 0,
+    "Capture::Tiny" => "0.12",
+    "ExtUtils::MakeMaker" => 0,
     "File::Find" => 0,
+    "File::Spec::Functions" => 0,
     "File::Temp" => 0,
+    "List::Util" => 0,
     "Test::More" => "0.96"
   },
   "CONFIGURE_REQUIRES" => {
@@ -30,7 +33,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }

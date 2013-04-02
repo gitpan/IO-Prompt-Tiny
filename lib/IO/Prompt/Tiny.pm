@@ -4,7 +4,7 @@ use warnings;
 
 package IO::Prompt::Tiny;
 # ABSTRACT: Prompt for user input with a default option
-our $VERSION = '0.001'; # VERSION
+our $VERSION = '0.002'; # VERSION
 
 use Exporter ();
 use Carp ();
@@ -62,7 +62,10 @@ sub _is_interactive {
 # vim: ts=2 sts=2 sw=2 et:
 
 __END__
+
 =pod
+
+=encoding utf-8
 
 =head1 NAME
 
@@ -70,7 +73,7 @@ IO::Prompt::Tiny - Prompt for user input with a default option
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 
@@ -157,7 +160,7 @@ L<Term::Prompt>
 =head2 Bugs / Feature Requests
 
 Please report any bugs or feature requests through the issue tracker
-at L<http://rt.cpan.org/Public/Dist/Display.html?Name=IO-Prompt-Tiny>.
+at L<https://github.com/dagolden/io-prompt-tiny/issues>.
 You will be notified automatically of any progress on your issue.
 
 =head2 Source Code
@@ -167,7 +170,7 @@ public review and contribution under the terms of the license.
 
 L<https://github.com/dagolden/io-prompt-tiny>
 
-  git clone https://github.com/dagolden/io-prompt-tiny.git
+  git clone git://github.com/dagolden/io-prompt-tiny.git
 
 =head1 AUTHOR
 
@@ -182,4 +185,3 @@ This is free software, licensed under:
   The Apache License, Version 2.0, January 2004
 
 =cut
-
